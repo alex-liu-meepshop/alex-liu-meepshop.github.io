@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe 測試 - 預約開店顧問</title>
+</head>
+
+<style>
+    .iframe-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>iframe 測試頁面 - 預約開店顧問</h1>
+
+        <div class="iframe-container">
+            <iframe
+                class="iframe-container"
+                style="width: 450px; height: 600px;"
+                id="consultant-iframe"
+                src="http://localhost:8888/iframe/consultant-reservation"
+                title="預約開店顧問"
+                allow="unload"
+                sandbox="allow-scripts allow-forms"
+            ></iframe>
+        </div>
+    </div>
+</body>
+</html>
